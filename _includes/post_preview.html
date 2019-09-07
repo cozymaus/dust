@@ -1,0 +1,26 @@
+<div class="post {{ post.category }}">
+
+
+        <img src="https://lizlorena.com/img/{{ post.img }}" class="img-fluid">
+        <h1>In {{ post.category }}</h1>
+        <!--<a class="button">More Info</a>-->
+
+</div>
+
+
+<div class="modal2">
+    
+        <img src="/img/{{ post.img }}" class="img-fluid">
+        <div class="header">
+            <p class="date">{{ post.category }}</p>
+            <a href="{{ post.link }}" target="_blank">
+                <h1>{{ post.title }}</h1>
+            </a>
+            <p class="date">{{ post.projectDate }}</p>
+        </div>
+        <p class="excerpt">{{ post.excerpt }}<br><br>
+            <a href="{{ post.link }}" target="_blank">More about this →</a>
+        </p>
+
+
+</div>
