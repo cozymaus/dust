@@ -89,7 +89,7 @@ div.heading p {
 
 div.post {
 	float: left;
-	margin: 20px;
+	margin: 40px;
 	width: 300px;
 	padding: 20px 20px 70px 20px;
 	background-color: white;
@@ -193,7 +193,7 @@ div.post.hide {
 @media (min-width: 768px) {	
 
 div.content {
-	margin: 0px 50px;
+	margin: 0px 170px;
 }
 
 }
